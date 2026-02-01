@@ -11,19 +11,19 @@ SETUP_REQUIRED = (HERE / "setup_requirements.txt").read_text()
 TEST_REQUIRED = (HERE / "test_requirements.txt").read_text()
 
 setup(
-    name='weconnect-cupra-daern',
+    name='weconnect-cupra-lordyavin',
     packages=find_packages(),
     version=open("weconnect_cupra/__version.py").readlines()[-1].split()[-1].strip("\"'"),
     description='Python API for the Cupra Born online services',
     long_description=README,
     long_description_content_type="text/markdown",
-    author='Till Steinbach / Alan Gibson / Stuart Hall',
+    author='sren09 / lucas2lab / Till Steinbach / Alan Gibson / Stuart Hall',
     keywords='weconnect_cupra, weconnect, we connect, carnet, car net, volkswagen, vw, telemetry, cupra',
-    url='https://github.com/daernsinstantfortress/WeConnect-Cupra-python',
+    url='https://github.com/lordyavin/WeConnect-Cupra-python',
     project_urls={
-        'Funding': 'https://github.com/sponsors/tillsteinbach',
-        'Source': 'https://github.com/daernsinstantfortress/WeConnect-Cupra-python',
-        'Bug Tracker': 'https://github.com/daernsinstantfortress/WeConnect-Cupra-python/issues'
+        'Funding': 'https://github.com/sponsors/lordyavin',
+        'Source': 'https://github.com/lordyavin/WeConnect-Cupra-python',
+        'Bug Tracker': 'https://github.com/lordyavin/WeConnect-Cupra-python/issues'
     },
     license='MIT',
     install_requires=INSTALL_REQUIRED,
